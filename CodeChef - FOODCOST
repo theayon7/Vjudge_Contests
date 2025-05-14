@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main()
+{
+    int hostel_food_days=6;
+    int hostel_cost,fancy_cost;
+    scanf("%d%d", &hostel_cost, &fancy_cost);
+    hostel_cost= hostel_cost*6;
+    printf("%d", hostel_cost+fancy_cost);
+    return 0;
+};
