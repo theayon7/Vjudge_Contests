@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main()
+{
+    int x;
+    scanf("%d",&x);
+    int a=x/100;
+    int b=(x/10)%10;
+    int c=x%10;
+    int abc=100*a+10*b+c;
+    int bca=100*b+10*c+a;
+    int cab=100*c+10*a +b;
+    int t=abc+bca+cab;
+    printf("%d",t);
+
+    return 0;
+}
