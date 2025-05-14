@@ -1,0 +1,13 @@
+#include<stdio.h>
+
+int main()
+{
+    int rainy;
+    int cloudy;
+    int clear;
+
+    scanf("%d %d", &rainy, &cloudy);
+    int x = rainy+cloudy;
+    clear = 7 - x;
+    printf("%d", clear);
+};
