@@ -1,0 +1,16 @@
+#include<stdio.h>
+
+int main(){
+
+int x , y;
+
+scanf("%d %d", &x,&y);
+
+int a= 5000*x;
+int b= 9800*y;
+int c= a+b;
+
+printf("%d\n", c);
+
+return 0;
+}
