@@ -1,0 +1,10 @@
+#include<stdio.h>
+
+int main()
+{
+    int x;
+    scanf("%d" ,&x);
+    int a= x%100;
+    printf("k%02d", a);
+    return 0;
+}
